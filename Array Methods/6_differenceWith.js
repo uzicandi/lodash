@@ -37,8 +37,6 @@ const differenceWith = (array, values, comparator) => {
   // 5. some() 메소드를 사용하여 values 배열에 일치하는 요소가 있는지 확인한다. 일치하는 요소가 없는 경우에만 결과 배열에 포함시킨다.
 
   return array.filter(arrVal => !values.some(othVal => comparator(arrVal, othVal)));
-
-
   
 }
 
